@@ -1,13 +1,14 @@
 :root{
-    --color-letra-principal: #212121;
-    --color-fondo: #F5F4FA;
+    --color-letter1: #212121;
+    --color-letter2: #757575;
     --color-active: #2196F3;
-    --color-fondo-titulo: #2F303A;
-    --color-letra1: #757575;
+    --color-button: #F5F4FA;
+    --color-background: #2F303A;
+    --color-background-page: #E5E5E5;    
 }
 body{
     font-family: 'roboto', sans-serif;
-    color: var(--color-letra-principal);
+    color: var(--color-letter1);
     font-size: 16px;
     text-align: center;
 }
@@ -17,7 +18,6 @@ h1 {
     font-weight: 900;
     line-height: 60px;
     color: #ffffff;
-    
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -39,14 +39,39 @@ h2 {
 
 
 .title {
-    background-color: var(--color-fondo-titulo);
+    background-color: var(--color-background);
     }
 button{
-    background-color: var(--color-fondo);
+    background-color: var(--color-button);
 }
 button:hover,
 button:focus{
     color: #ffffff;
     background-color: var(--color-active);
     cursor: pointer;
+}
+
+.features h3{
+    color: var(--color-letter1);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.features p {
+    color: var(--color-letter2);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+.team {
+    background-color: var(--color-button);
+}
+
+
+.footer {
+    color: #ffffff;
+    background-color: var(--color-background);
+
 }
