@@ -10,8 +10,47 @@ body{
     font-family: 'roboto', sans-serif;
     color: var(--color-letter1);
     font-size: 16px;
-    text-align: center;
+    font-style: normal;
 }
+.logo {
+    color: var(--color-active);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+.toggle:hover,
+.toggle:focus {
+    color: var(--color-active);
+    cursor: pointer;
+}
+.toggle {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    letter-spacing: 0.02em;
+}
+.toggle .contact {
+    color: var(--color-letter2);
+}
+.contact {
+    color: #ffffff;
+}
+ul {
+    list-style: none;
+}
+.footer {
+    color: #ffffff;
+    background-color: var(--color-background);
+
+}
+
+
+
+
 h1 {
     font-size: 44px;
     font-style: normal;
@@ -38,7 +77,7 @@ h2 {
 }
 
 
-.title {
+.main-title {
     background-color: var(--color-background);
     }
 button{
@@ -70,8 +109,3 @@ button:focus{
 }
 
 
-.footer {
-    color: #ffffff;
-    background-color: var(--color-background);
-
-}
