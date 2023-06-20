@@ -8,104 +8,54 @@
 }
 body{
     font-family: 'roboto', sans-serif;
-    color: var(--color-letter1);
-    font-size: 16px;
     font-style: normal;
-}
-.logo {
-    color: var(--color-active);
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
-    text-decoration: none;
-}
-.toggle:hover,
-.toggle:focus {
-    color: var(--color-active);
-    cursor: pointer;
-}
-.toggle {
-    text-decoration: none;
     font-size: 14px;
-    font-weight: 500;
-    line-height: 16.41px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.03em;
+    color: var(--color-letter1);
 }
-.toggle .contact {
-    color: var(--color-letter2);
-}
-.contact {
-    color: #ffffff;
+a {
+    text-decoration: none;
 }
 ul {
     list-style: none;
 }
-.footer {
-    color: #ffffff;
-    background-color: var(--color-background);
-
-}
-
-
-
-
-h1 {
-    font-size: 44px;
-    font-style: normal;
-    font-weight: 900;
-    line-height: 60px;
-    color: #ffffff;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-}
-.title button {
-    color: #ffffff;
-    background-color: #2196F3;
+.logo {
+    font-family: 'raleway';
     font-weight: 700;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.06em;
-}
-h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
+    font-size: 26px;
+    line-height: 31px;
     letter-spacing: 0.03em;
+    color: var(--color-active);
 }
-
-
-.main-title {
-    background-color: var(--color-background);
-    }
-button{
-    background-color: var(--color-button);
+.nav .logo {
+    text-align: right;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-button:hover,
-button:focus{
-    color: #ffffff;
-    background-color: var(--color-active);
-    cursor: pointer;
-}
-
-.features h3{
-    color: var(--color-letter1);
-    font-weight: 700;
-    font-size: 14px;
+.menu a {
+    font-weight: 500;
     line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: var(--color-letter1);
 }
-.features p {
+.address a {
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.02em;
     color: var(--color-letter2);
+}
+.toggle:hover,
+.toggle:focus {
+    color: var(--color-active);
+}
+.address-footer a {
     font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
 }
-.team {
-    background-color: var(--color-button);
+.address-footer a:hover,
+.address-footer a:focus {
+    color: rgba(255, 255, 255, 1);
 }
-
-
+.footer {
+    background-color: var(--color-background);
+}
