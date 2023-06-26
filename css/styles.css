@@ -12,6 +12,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--color-letter-main);
+  background-color: #ffffff;
 }
 .header-logo {
   color: var(--color-active);
@@ -80,14 +81,17 @@ a {
   letter-spacing: 2.64px;
   text-transform: uppercase;
   color: #ffffff;
+  text-align: center;
 }
 .main-section button {
+  font-family: Roboto;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.96px;
   color: #ffffff;
   background-color: var(--color-active);
+  text-align: center;
 }
 .features-title {
   color: var(--color-letter-main);
@@ -108,6 +112,7 @@ a {
   line-height: 1.16;
   letter-spacing: 1.08px;
   text-transform: capitalize;
+  text-align: center;
 }
 .main li,
 a {
@@ -121,6 +126,7 @@ a {
   letter-spacing: 0.48px;
   color: var(--color-letter-main);
   cursor: pointer;
+  text-align: center;
 }
 .team-list p {
   font-weight: 400;
@@ -128,17 +134,21 @@ a {
   font-size: 16px;
   line-height: 1.18px;
   letter-spacing: 0.48px;
+  text-align: center;
 }
 .team {
   background-color: var(--color-button);
 }
 .portafolio button {
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
+  text-align: center;
   line-height: 1.62;
   background-color: var(--color-button);
   color: var(--color-letter-main);
   cursor: pointer;
+  letter-spacing: 0.48px;
 }
 .portafolio button:is(:focus, :hover) {
   color: #ffffff;
@@ -149,14 +159,14 @@ a {
   text-decoration: none;
   list-style: none;
 }
-.portafolio-cards h3 {
+.portafolio-listcards h3 {
   color: var(--color-letter-main);
   font-size: 18px;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 1.08px;
 }
-.portafolio-cards p {
+.portafolio-listcards p {
   color: var(--color-letter-secundary);
   font-size: 16px;
   font-weight: 400;
