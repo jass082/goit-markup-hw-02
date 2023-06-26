@@ -140,7 +140,7 @@ a {
   color: var(--color-letter-main);
   cursor: pointer;
 }
-.portafolio button:is(;focus, :hover) {
+.portafolio button:is(:focus, :hover) {
   color: #ffffff;
   background-color: var(--color-active);
 }
