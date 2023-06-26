@@ -15,44 +15,47 @@
   </head>
   <body>
     <header class="header">
-      <nav class="nav">
-        <a class="logo" href="./index.html">WebStudio</a>
-        <ul class="menu">
-          <li><a class="toggle" href="./index.html">Estudio</a></li>
-          <li><a class="toggle" href="./Portafolio.html">Portafolio</a></li>
-          <li><a class="toggle" href="#">Contactos</a></li>
+      <nav class="header-nav">
+        <a class="header-logo" href="./index.html">WebStudio</a>
+        <ul class="header-menu">
+          <li><a class="menu-item" href="./index.html">Estudio</a></li>
+          <li><a class="menu-item" href="./Portafolio.html">Portafolio</a></li>
+          <li><a class="menu-item" href="#">Contactos</a></li>
         </ul>
       </nav>
-      <ul class="address">
+      <ul class="header-address">
         <li>
-          <a class="toggle" class="contact" href="mailto:info@devstudio.com"
+          <a
+            class="header-contact"
+            class="contact"
+            href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a class="toggle" class="contact" href="tel:+525555296000"
+          <a class="header-contact" class="contact" href="tel:+525555296000"
             >+525555296000</a
           >
         </li>
       </ul>
     </header>
 
-    <main>
-      <section class="main-title">
-        <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+    <main class="main">
+      <section class="main-section">
+        <h1 class="main-title">soluciones eficaces para su negocio</h1>
         <button type="button">Solicite nuestro servicio</button>
       </section>
       <section class="features">
-        <ul>
+        <ul class="features-list">
           <li>
-            <h3>ATENCIÓN A LOS DETALLES</h3>
+            <h3 class="features-title">atención a los detalles</h3>
             <p>
               Nos adentramos en todos los detalles y procesos de su negocio,
               para así desarrollar una solución a su medida.
             </p>
           </li>
           <li>
-            <h3>PUNTUALIDAD</h3>
+            <h3 class="features-title">puntualidad</h3>
             <p>
               Con nosotros, usted puede sentirse seguro y protegido. Un
               principio importante de la empresa: respetar su tiempo y respetar
@@ -60,14 +63,14 @@
             </p>
           </li>
           <li>
-            <h3>PLANIFICACIÓN</h3>
+            <h3 class="features-title">planificación</h3>
             <p>
               Usted podrá observar y participar en cada fase del desarrollo y
               aplicación de soluciones.
             </p>
           </li>
           <li>
-            <h3>TEGNOLOGÍA MODERNA</h3>
+            <h3 class="features-title">tegnología moderna</h3>
             <p>
               Usamos herramientas innovadoras para resolver las tareas
               asignadas. Es hora de simplificar los procesos laborales.
@@ -77,8 +80,8 @@
       </section>
 
       <section class="tasks">
-        <h2>A qué nos dedicamos</h2>
-        <ul>
+        <h2 class="task-title second-title">a qué nos dedicamos</h2>
+        <ul class="task-list">
           <li>
             <img
               src="images/image7.jpg"
@@ -104,11 +107,11 @@
       </section>
 
       <section class="team">
-        <h2>Nuestro Equipo</h2>
-        <ul>
+        <h2 class="team-title second-title">nuestro equipo</h2>
+        <ul class="team-list">
           <li>
             <img src="images/image3.jpg" alt="foto del diseñador" width="270" />
-            <h4>Andrés Cubo</h4>
+            <h3 class="team-member">Andrés Cubo</h3>
             <p>Diseñador de productos</p>
           </li>
           <li>
@@ -117,7 +120,7 @@
               alt="foto de la desarrolladora"
               width="270"
             />
-            <h4>Carla Palacios</h4>
+            <h3 class="team-member">Carla Palacios</h3>
             <p>Desarrolladora Frontend</p>
           </li>
           <li>
@@ -126,12 +129,12 @@
               alt="foto encargado marketing"
               width="270"
             />
-            <h4>Mario Dorado</h4>
+            <h3 class="team-member">Mario Dorado</h3>
             <p>Marketing</p>
           </li>
           <li>
             <img src="images/image6.jpg" alt="foto diseñador" width="270" />
-            <h4>Pablo Mijangos</h4>
+            <h3 class="team-member">Pablo Mijangos</h3>
             <p>Diseñador iu</p>
           </li>
         </ul>
@@ -139,16 +142,22 @@
     </main>
 
     <footer class="footer">
-      <a class="logo" href="./index.html">WebStudio</a>
+      <a class="footer-logo" href="./index.html">WebStudio</a>
       <address>
-        <ul class="address-footer">
+        <ul class="footer-address">
           <li>
-            <a href="#">Calz. Ticomán 500, Cuidad de México, CDMX, México</a>
+            <a class="footer-contact" href="#"
+              >Calz. Ticomán 500, Cuidad de México, CDMX, México</a
+            >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="footer-contact" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li><a href="tel:+525555296000">+525555296000</a></li>
+          <li>
+            <a class="footer-contact" href="tel:+525555296000">+525555296000</a>
+          </li>
         </ul>
       </address>
     </footer>

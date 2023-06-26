@@ -15,31 +15,34 @@
 
   <body>
     <header class="header">
-      <nav class="nav">
-        <a class="logo" href="./index.html">WebStudio</a>
-        <ul class="menu">
-          <li><a class="toggle" href="./index.html">Estudio</a></li>
-          <li><a class="toggle" href="./Portafolio.html">Portafolio</a></li>
-          <li><a class="toggle" href="#">Contactos</a></li>
+      <nav class="header-nav">
+        <a class="header-logo" href="./index.html">WebStudio</a>
+        <ul class="header-menu">
+          <li><a class="menu-item" href="./index.html">Estudio</a></li>
+          <li><a class="menu-item" href="./Portafolio.html">Portafolio</a></li>
+          <li><a class="menu-item" href="#">Contactos</a></li>
         </ul>
       </nav>
-      <ul class="address">
+      <ul class="header-address">
         <li>
-          <a class="toggle" class="contact" href="mailto:info@devstudio.com"
+          <a
+            class="header-contact"
+            class="contact"
+            href="mailto:info@devstudio.com"
             >info@devstudio.com</a
           >
         </li>
         <li>
-          <a class="toggle" class="contact" href="tel:+525555296000"
+          <a class="header-contact" class="contact" href="tel:+525555296000"
             >+525555296000</a
           >
         </li>
       </ul>
     </header>
 
-    <main>
-      <section>
-        <ul class="filter">
+    <main class="portafolio">
+      <section class="portafolio-filter">
+        <ul class="portafolio-listfilter">
           <li><button type="button">Todo</button></li>
           <li><button type="button">Sitios web</button></li>
           <li><button type="button">Aplicaciones</button></li>
@@ -47,15 +50,15 @@
           <li><button type="button">Marketing</button></li>
         </ul>
       </section>
-      <section>
-        <ul class="list">
+      <section class="portafolio-cards">
+        <ul class="portafolio-listcards">
           <li>
             <img
               src="./images/image8.jpg"
               alt="imagen del equipo de trabajo de la empresa"
               width="370"
             />
-            <h4>Tecnoduck</h4>
+            <h3>Tecnoduck</h3>
             <p>Sitio-web</p>
           </li>
           <li>
@@ -64,7 +67,7 @@
               alt="dos personas jugando basquetball"
               width="370"
             />
-            <h4>Póster de Nueva Orleans vs Estrella Dorada</h4>
+            <h3>Póster de Nueva Orleans vs Estrella Dorada</h3>
             <p>Diseño</p>
           </li>
           <li>
@@ -73,12 +76,12 @@
               alt="logo de restaurante Seafood"
               width="370"
             />
-            <h4>Restaurante Seafood</h4>
+            <h3>Restaurante Seafood</h3>
             <p>Aplicaciones</p>
           </li>
           <li>
             <img src="./images/image11.jpg" alt="auriculares" width="370" />
-            <h4>Proyecto Prime</h4>
+            <h3>Proyecto Prime</h3>
             <p>Marketing</p>
           </li>
           <li>
@@ -87,7 +90,7 @@
               alt="imagen de dos cajas de cartón"
               width="370"
             />
-            <h4>Proyecto Cajas</h4>
+            <h3>Proyecto Cajas</h3>
             <p>Aplicaciones</p>
           </li>
           <li>
@@ -96,12 +99,12 @@
               alt="pantalla de pc mostando pagina web"
               width="370"
             />
-            <h4>La inspiración no tiene límites</h4>
+            <h3>La inspiración no tiene límites</h3>
             <p>Sitio-web</p>
           </li>
           <li>
             <img src="./images/image14.jpg" alt="libro abierto" width="370" />
-            <h4>Edición Límitada</h4>
+            <h3>Edición Límitada</h3>
             <p>Diseño</p>
           </li>
           <li>
@@ -110,7 +113,7 @@
               alt="etiqueta blanca con letra negras"
               width="370"
             />
-            <h4>Proyecto LAB</h4>
+            <h3>Proyecto LAB</h3>
             <p>Marketing</p>
           </li>
           <li>
@@ -119,7 +122,7 @@
               alt="manos tecleando en una laptop"
               width="370"
             />
-            <h4>Negocio en Crecimiento</h4>
+            <h3>Negocio en Crecimiento</h3>
             <p>Aplicaciones</p>
           </li>
         </ul>
@@ -127,16 +130,22 @@
     </main>
 
     <footer class="footer">
-      <a class="logo" href="./index.html">WebStudio</a>
+      <a class="footer-logo" href="./index.html">WebStudio</a>
       <address>
-        <ul class="address-footer">
+        <ul class="footer-address">
           <li>
-            <a href="#">Calz. Ticomán 500, Cuidad de México, CDMX, México</a>
+            <a class="footer-contact" href="#"
+              >Calz. Ticomán 500, Cuidad de México, CDMX, México</a
+            >
           </li>
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="footer-contact" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
-          <li><a href="tel:+525555296000">+525555296000</a></li>
+          <li>
+            <a class="footer-contact" href="tel:+525555296000">+525555296000</a>
+          </li>
         </ul>
       </address>
     </footer>
